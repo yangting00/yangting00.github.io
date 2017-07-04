@@ -9,7 +9,8 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@lianjia/zola-core": "0.0.4"
+    "@lianjia/zola-core": "0.0.4",
+    "showdown": "^1.7.1"
   },
   "redskull": {
     "port": 6003,
