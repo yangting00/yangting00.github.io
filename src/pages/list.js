@@ -10,7 +10,7 @@ export default class Index extends Page {
           {
             articleList.map((article, index) => {
               return (
-                <li>
+                <li key={index}>
                   <a href={`#/article${article.path}`}>
                     {article.title}
                   </a>

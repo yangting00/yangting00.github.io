@@ -8,7 +8,7 @@ export default class extends React.Component {
       content: null
     };
   }
-  componsentWillMount() {
+  componentWillMount() {
     const filePath = this.props.articlePath
     fetch(filePath).then((data) => {
       data.text().then(text => {
