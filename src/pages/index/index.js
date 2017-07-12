@@ -17,7 +17,15 @@ export default class Index extends Page {
     return (
       <div className="cd-hero-slider">
         <div className="cd-full-width">
-          <a href="#/list" className="container-fluid">你想知道点什么呢？</a>
+          <a>
+            <img className="icon" src="/favicon.jpeg" />
+            <div>
+            <span className="name">YangTing</span>
+            </div>
+          </a>
+          <div className="content">
+            <a href="#/list" className="container-fluid">你想知道点什么呢？？？</a>
+          </div>
         </div>
       </div>
     )

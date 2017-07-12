@@ -24,7 +24,7 @@ export default [
 		subtitle: "sublime introduction, installing and using",
 		filename: "sublime",
 		path: "sublime.md",
-		summary: "Submitted by Mike Hopper, WDI Atlanta. The following lesson should take about 75 minutes and includes a lab for / the students to practice some of the powerful editing features of Sublime. The main purpose of this lesson is to get students comfortabl...",
+		summary: "Submitted by Mike Hopper, WDI Atlanta. The following lesson should take about 75 minutes and includes a lab for\nthe students to practice some of the powerful editing features of Sublime. The main purpose of this lesson is to get students comfortable ...",
 		component: () => System.import('article/sublime.md')
 	}
 ]
