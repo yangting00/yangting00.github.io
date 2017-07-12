@@ -1,4 +1,4 @@
-#test
+# XiaoYao Blog
 
-> A Zola Application
-> with ♥︎ by lianjia-fe
+[欢迎围观！](https://yangting00.github.io/#/)
+

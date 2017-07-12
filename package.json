@@ -1,16 +1,19 @@
 {
-  "name": "test",
+  "name": "XiaoYao",
   "version": "0.0.1",
   "description": "a react application powerd by zola",
   "scripts": {
     "start": "ENVIRONMENT=development redskull start --dashboard false",
     "test": "ENVIRONMENT=testing redskull build",
-    "build": "ENVIRONMENT=production redskull build --publicPath https:yangting00.github.io/dist/ && cp -rf ./dist/index.html ./index.html && cp -rf ./article ./dist/article"
+    "build": "ENVIRONMENT=production redskull build --publicPath https://yangting00.github.io/dist/ && cp -rf ./dist/index.html ./index.html"
   },
   "license": "ISC",
   "dependencies": {
     "@lianjia/zola-core": "0.0.4",
-    "showdown": "^1.7.1"
+    "highlight.js": "^9.12.0",
+    "showdown": "^1.7.1",
+    "summarize-markdown": "^0.3.1",
+    "watch": "^1.0.2"
   },
   "redskull": {
     "port": 6003,
@@ -20,5 +23,9 @@
     "devConfig": "./webpack/config.dev.js",
     "prodConfig": "./webpack/config.prod.js",
     "favico": "favicon.jpeg"
+  },
+  "devDependencies": {
+    "html-loader": "^0.4.5",
+    "md-loader": "^0.1.0"
   }
 }

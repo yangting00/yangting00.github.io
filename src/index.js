@@ -20,4 +20,4 @@ import routes from './routes'
 
 zola
   .set('env', process.env.NODE_ENV)
-  .render(routes, '#root')
+  .render(routes, '.cd-hero-slider')
