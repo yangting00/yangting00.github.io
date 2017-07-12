@@ -50,17 +50,6 @@ export default class extends Page {
     return (
       !!content
       ? <div className="article-deatil-wrapper">
-          <div className="article-header">
-            <h1>{title}</h1>
-            <div className="author">
-              <span>{author},   {createTime}</span>
-            </div>
-            <div className="article-tags">
-              {
-                tags.map(v => <span>{v}</span>)
-              }
-            </div>
-          </div>
           <div dangerouslySetInnerHTML={{__html: content}}></div>
         </div>
       : <div>Loading...</div>

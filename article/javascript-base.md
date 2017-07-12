@@ -1,9 +1,7 @@
 ---
-layout: post
-title: JavaScript基础1
-categories: [随笔]
-tags: []
-fullview: true
+createTime : 2017/06/28
+author : 候志强
+title : JAVASCRIPT基础
 ---
 
 本文主要讲述了JavaScript语言中基本知识和概念以及平时工作时遇到的一些问题。

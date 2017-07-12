@@ -1,9 +1,8 @@
-<!-- ---
+---
 createTime : 2017/06/28
 author : 高瑞
 title : JAVASCRIPT 写作指南
-subtitle: JAVASCRIPT 写作指南
---- -->
+---
 
 # JAVASCRIPT 写作指南
 

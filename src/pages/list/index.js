@@ -21,7 +21,10 @@ export default class Index extends Page {
                   return (
                     <div key={i} className="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
                         <div className="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
-                            <a href={`#/article/${v.filename}`}><span className="tm-text-title">{v.title}</span></a>
+                            <a href={`#/article/${v.filename}`}>
+                              <span className="tm-text-title">{v.title}</span>
+                              <span className="tm-text-author">作者:{v.author}</span>
+                            </a>
                             <div className="tm-text">{v.summary}</div>
                         </div>
                     </div>
