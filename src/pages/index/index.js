@@ -17,7 +17,7 @@ export default class Index extends Page {
     return (
       <div className="cd-hero-slider">
         <div className="cd-full-width">
-          <a>
+          <a href="#/list">
             <img className="icon" src="/favicon.jpeg" />
             <div>
             <span className="name">YangTing</span>

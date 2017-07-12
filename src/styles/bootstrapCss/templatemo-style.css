@@ -180,7 +180,7 @@ button:focus { outline: none; }
 
 .cd-hero-slider .tm-text-author {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
 }
 /* footer */
@@ -776,7 +776,7 @@ figure.effect-ruby:hover img {
 	.cd-hero-slider p:last-child { margin-bottom: 0; }
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
 	.cd-hero-slider .tm-text {
-    font-size: 20px;
+    font-size: 19px;
     height: 200px;
     overflow: hidden;
   }

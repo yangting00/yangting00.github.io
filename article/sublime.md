@@ -1,6 +1,6 @@
 ---
 createTime : 2017/06/28
-author : linwei0201
+author : 林薇
 title : sublime introduction
 subtitle: sublime introduction, installing and using
 ---
