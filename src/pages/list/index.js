@@ -19,8 +19,8 @@ export default class Index extends Page {
               {
                 articleList.map((v, i) => {
                   return (
-                    <a href={`#/article/${v.filename}`}>
-                      <div key={i} className="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
+                    <a key={i} href={`#/article/${v.filename}`} >
+                      <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 tm-3-col-textbox">
                           <div className="text-xs-left tm-textbox tm-textbox-padding tm-bg-white-translucent tm-3-col-textbox-inner">
                             <span className="tm-text-title">{v.title}</span>
                             <span className="tm-text-author">作者:{v.author}</span>
