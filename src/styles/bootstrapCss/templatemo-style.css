@@ -156,7 +156,7 @@ button:focus { outline: none; }
 }
 
 .cd-hero-slider .tm-text {
-	font-size: 1em;
+	font-size: 18px;
 	line-height: 1.8;
 }
 
@@ -174,7 +174,7 @@ button:focus { outline: none; }
 
 .cd-hero-slider .tm-text-title {
 	color: #000002;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 400;
 }
 
@@ -580,7 +580,6 @@ figure.effect-ruby:hover img {
 
 @media only screen and (min-width: 480px) {
 	.cd-full-width .container-fluid { margin-top: -80px; }
-	.cd-hero-slider h2.tm-text-title { font-size: 1.8em; }
 	.tm-textbox-padding { padding: 30px 40px; }
 	.tm-textbox-padding-contact { padding: 30px; }
 	.tm-img-gallery-container {
